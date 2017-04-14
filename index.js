@@ -58,9 +58,9 @@ var outputResult = function (array1, array2) {
     });
 };
 
-fs.readFile('config1.wtf', (err, data1) => {
+fs.readFile('config.wtf', (err, data1) => {
     if (err) throw err;
-    fs.readFile('config2.wtf', (err, data2) => {
+    fs.readFile('Config (2).wtf', (err, data2) => {
         if (err) throw err;
         var array1 = arrayGen(data1);
         var array2 = arrayGen(data2);
